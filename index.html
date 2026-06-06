@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Proyecto 2 - Visualización de Información</title>
+</head>
+<body>
+    <h2>Introducción</h2>
+    <p>Este informe tiene como objetivo principal realizar un análisis exploratorio de los datos sobre un conjunto de datos sobre personas con enfermedades
+        del corazón, con sus características de forma anónima para poder generar visualizaciones informativas sobre la relación que tienen las variables entre sí,
+        para poder comprender los datos de una mejor manera, buscando patrones, identificando anomalías, etc.</p>
+
+    <h2>Descripción del problema</h2>
+    <p>Los problemas de corazón son cada vez más comunes en las sociedades modernas, esto debido a muchos factores que afectan la salud física de las personas, 
+        como la falta de actividad física, el consumo de comidas que perjudican el estado del corazón y el resto del cuerpo, el consumo de drogas, padecimientos
+        previos como presión alta, diabetes, tiempos de sueño irregulares, altos niveles de estrés. Estas y otras razones son fuentes de problemas en el corazón 
+        en personas de todo el mundo. Es por esto por lo que muchos especialistas en el tema recolectan datos de las personas que pueden ayudar a confirmar si se 
+        tiene o no algún padecimiento del corazón, o al menos se pueda utilizar como guía para poder identificarlos temprano, como el conjunto de datos que se 
+        utilizara en el presente análisis exploratorio de los datos.</p>
+
+    <h2>Definición de fuentes de datos</h2>
+    <p>El conjunto de datos que es usado para este análisis fue realizado por Oktay Ördekci llamado Heart Disease, el cual contiene 21 indicadores de riesgo relacionados 
+        a los problemas de salud. Como la edad, genero, presión en sangre, etc. Estos datos fueron recolectados para analizar las posibilidades de riesgo en padecimientos 
+        del control y ayudar a la investigación en temas de salud. La siguiente tabla muestra todos los indicadores que contiene el conjunto de datos, una breve descripción 
+        de cada uno y los valores que puede tomar.</p>
+
+    <h3>Diccionario de Variables</h3>    
+    <table border="1" style="border-collapse: collapse; width: 100%; text-align: left;">
+        <thead>
+            <tr style="background-color: #f2f2f2;">
+                <th style="padding: 8px;">Indicador</th>
+                <th style="padding: 8px;">Descripción</th>
+                <th style="padding: 8px;">Valores</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr><td style="padding: 8px;">Age</td><td style="padding: 8px;">La edad de cada individuo</td><td style="padding: 8px;">Numérico entero</td></tr>
+            <tr><td style="padding: 8px;">Gender</td><td style="padding: 8px;">El género del individuo</td><td style="padding: 8px;">Male o Female</td></tr>
+            <tr><td style="padding: 8px;">Blood Pressure</td><td style="padding: 8px;">La presión en sangre del individuo</td><td style="padding: 8px;">Numérico entero</td></tr>
+            <tr><td style="padding: 8px;">Cholesterol Level</td><td style="padding: 8px;">El nivel de colesterol de cada individuo</td><td style="padding: 8px;">Numérico entero</td></tr>
+            <tr><td style="padding: 8px;">Exercise Habits</td><td style="padding: 8px;">Nivel de ejercicio del individuo</td><td style="padding: 8px;">Low(bajo), Medium(medio), High(alto)</td></tr>
+            <tr><td style="padding: 8px;">Smoking</td><td style="padding: 8px;">Si el individuo fuma o no</td><td style="padding: 8px;">Yes o No</td></tr>
+            <tr><td style="padding: 8px;">Family Heart Disease</td><td style="padding: 8px;">Si alguien en la familia tiene padecimientos en el corazón</td><td style="padding: 8px;">Yes o No</td></tr>
+            <tr><td style="padding: 8px;">Diabetes</td><td style="padding: 8px;">Si la persona padece de diabetes o no</td><td style="padding: 8px;">Yes o No</td></tr>
+            <tr><td style="padding: 8px;">BMI</td><td style="padding: 8px;">Índice de masa corporal del individuo</td><td style="padding: 8px;">Numérico decimal</td></tr>
+            <tr><td style="padding: 8px;">High Blood Pressure</td><td style="padding: 8px;">Si el individuo tiene presión de sangre alta</td><td style="padding: 8px;">Yes o No</td></tr>
+            <tr><td style="padding: 8px;">Low HDL Cholesterol</td><td style="padding: 8px;">Si el individuo tiene bajo nivel de colesterol HDL</td><td style="padding: 8px;">Yes o No</td></tr>
+            <tr><td style="padding: 8px;">High LDL Cholesterol</td><td style="padding: 8px;">Si el individuo tiene alto nivel de colesterol LDL</td><td style="padding: 8px;">Yes o No</td></tr>
+            <tr><td style="padding: 8px;">Alcohol Consumption</td><td style="padding: 8px;">Cuánto alcohol consume el individuo</td><td style="padding: 8px;">None(nada), Low(poco), Medium(medio), High(alto)</td></tr>
+            <tr><td style="padding: 8px;">Stress Level</td><td style="padding: 8px;">Nivel de estrés del individuo</td><td style="padding: 8px;">Low(bajo), Medium(medio), High(alto)</td></tr>
+            <tr><td style="padding: 8px;">Sleep Hours</td><td style="padding: 8px;">Cantidad de horas de sueño del individuo</td><td style="padding: 8px;">Numérico decimal</td></tr>
+            <tr><td style="padding: 8px;">Sugar Consumption</td><td style="padding: 8px;">Consumo de azúcar del individuo</td><td style="padding: 8px;">Low(bajo), Medium(medio), High(alto)</td></tr>
+            <tr><td style="padding: 8px;">Triglyceride Level</td><td style="padding: 8px;">Nivel de triglicéridos del individuo</td><td style="padding: 8px;">Numérico entero</td></tr>
+            <tr><td style="padding: 8px;">Fasting Blood Sugar</td><td style="padding: 8px;">Nivel de azúcar en sangre del individuo</td><td style="padding: 8px;">Numérico entero</td></tr>
+            <tr><td style="padding: 8px;">CRP Level</td><td style="padding: 8px;">Nivel de la proteína C reactiva</td><td style="padding: 8px;">Numérico decimal</td></tr>
+            <tr><td style="padding: 8px;">Homocysteine Level</td><td style="padding: 8px;">Nivel de homocisteína del individuo</td><td style="padding: 8px;">Numérico decimal</td></tr>
+            <tr><td style="padding: 8px;">Heart Disease Status</td><td style="padding: 8px;">Si el individuo tiene o no problemas del corazón</td><td style="padding: 8px;">Yes o No</td></tr>
+        </tbody>
+    </table>
+
+    <h3>Definiciones Importantes</h3>
+    <ul>
+        <li><strong>Colesterol:</strong> es una sustancia cerosa y grasa que el cuerpo necesita para formar células saludables, hormonas y vitamina D, es producido por el hígado y viaja por la sangre.</li>
+        <li><strong>Diabetes:</strong> es una enfermedad crónica que se caracteriza por altos niveles de glucosa en sangre, aparece cuando el páncreas no produce suficiente insulina o el cuerpo no es capaz de usarla.</li>
+        <li><strong>Índice de Masa Corporal (BMI):</strong> es una medida que usa el peso y la estatura para estimar la grasa corporal y evaluar el riesgo de la salud en adultos, es decir si tiene sobrepeso u obesidad, se calcula mediante la siguiente formula: 
+            <div style="margin-left: 300px;">
+                BMI = Peso (kg) / Altura (m²)
+            </div>
+        </li>
+        <li><strong>HDL Colesterol:</strong> lipoproteína de alta densidad es conocido como el colesterol “bueno”, porque transporta el colesterol del cuerpo al hígado para ser destruido, reduciendo el riesgo de enfermedades cardiacas.</li>
+        <li><strong>LDL Colesterol:</strong> lipoproteína de baja densidad es conocido como el colesterol “malo”, porque transporta colesterol a las células, pero cuando sus niveles son altos estos se acumulan en las paredes de las arterias, estrechándolas y provocando su endurecimiento, lo que aumenta el riesgo de ataques cardiacos.</li>
+        <li><strong>Triglicéridos:</strong> es el tipo más común de grasa (lípido) en el cuerpo, el cual es esencial para proporcionar energía, cuando hay niveles altos en sangre, por encima de 200mg/dl aumentan los riesgos de enfermedades cardiacas.</li>
+        <li><strong>CRP Level (Proteína C Reactiva):</strong> mide la inflamación en el cuerpo, es producida por el hígado y sus niveles aumentan cuando hay infecciones, lesiones o enfermedades crónicas, mientras mayor nivel indica que hay alta inflación del cuerpo.</li>
+        <li><strong>Homocisteína:</strong> es un aminoácido presente en la sangre que se produce al descomponer proteínas. En niveles altos daña las arterias y aumentan el riesgo de enfermedades cardiovasculares.</li>
+    </ul>
+
+    <h2>Descripción detallada y explicación de las gráficas principales</h2>
+
+    <h3>1. Distribución de la Edad en Pacientes</h3>
+    <img src="graficas/distribucion_edad.svg" alt="Distribución de Edad" style="max-width: 100%; height: auto;">
+    <p><strong>Análisis:</strong> Al visualizar a los pacientes ordenados de menor a mayor edad, la suave pendiente ascendente de las barras demuestra que el dataset abarca una muestra poblacional sumamente uniforme. La distribución cubre desde adultos jóvenes (aproximadamente 20 años) hasta personas de la tercera edad (cerca de los 90 años), sin presentar saltos abruptos o vacíos demográficos, lo que garantiza que los análisis posteriores no estén sesgados hacia un único grupo etario.</p>
+
+    <h3>2. Distribución del Índice de Masa Corporal (BMI)</h3>
+    <img src="graficas/distribucion_bmi.svg" alt="Distribución de BMI" style="max-width: 100%; height: auto;">
+    <p><strong>Análisis:</strong> La curva de distribución horizontal revela un patrón clínico muy claro respecto al peso de los pacientes. La inmensa mayoría de la población estudiada se concentra firmemente en el rango de un Índice de Masa Corporal (BMI) de 25 a 35. Esto indica que una proporción significativa de los individuos en este estudio clínico entra en las categorías de sobrepeso u obesidad, variables que la literatura médica asocia fuertemente con un mayor riesgo de desarrollar complicaciones cardiovasculares.</p>
+    
+    <h3>3. Distribución de Niveles de Colesterol</h3>
+    <img src="graficas/distribucion_colesterol.svg" alt="Niveles de Colesterol" style="max-width: 100%; height: auto;">
+    <p><strong>Análisis:</strong> El gráfico de líneas ilustra la progresión ordenada de los niveles de colesterol en toda la muestra. Se evidencia que, si bien la curva inicia en rangos manejables (cerca de 120), experimenta un ascenso constante donde una gran cantidad de individuos supera el umbral considerado saludable (200). La gráfica destaca visualmente la preocupante "cola larga" de pacientes que alcanzan picos críticos de colesterol cercanos a 400, representando el sector de más alto riesgo en el estudio.</p>
+    
+    <h3>4. Correlación: Edad vs. Presión Sanguínea</h3>
+    <img src="graficas/edad_vs_presion.svg" alt="Edad vs Presión Sanguínea" style="max-width: 100%; height: auto;">
+    <p><strong>Análisis:</strong> El diagrama de dispersión expone una alta densidad poblacional concentrada entre los 40 y 80 años de edad. Al mapear la presencia de enfermedad cardíaca (puntos rojos) frente a pacientes sanos (puntos verdes), se observa que los casos positivos están fuertemente entrelazados en todos los niveles de presión sanguínea. Sin embargo, resalta una acumulación visual de diagnósticos positivos a medida que avanza la edad y la presión arterial supera el umbral de 120-140, sugiriendo que la combinación de envejecimiento e hipertensión es un factor de riesgo predominante.</p>
+    
+    <h3>5. Correlación: Colesterol vs. Estrés</h3>
+    <img src="graficas/colesterol_estres.svg" alt="Colesterol vs. Estrés" style="max-width: 100%; height: auto;">
+    <p><strong>Análisis: El diagrama de muestra la relación entre los niveles de colesterol y el estrés en la población estudiada, demostrando una correlación donde se observa un patron interesante, los datos se distribuyen de forma uniforme en casi todos los niveles, esto podria indicar que en el dataset, en el conjunto de datos no se encuentra una relacion clara entre el nivel de estres y la concentracion de colesterol.</strong> </p>
+    
+    <h3>6. Distribución: Hábitos Personales</h3>
+    <img src="graficas/matriz_habitos.svg" alt="Hábitos Personales" style="max-width: 100%; height: auto;">
+    <p><strong>Análisis: La matriz de dispersion muestra los habitos personales como las horas de sueño redondeadas, el consumo de azucar, el nivel de estres, si es fumador y la cantidad de ejercicio que se realiza comparando cada variable con las demas, donde cada subgráfica representa la comparación de dos variables, la intesidad del color azul muestra la densidad demografica de personas que cumplen con ambas condiciones. </strong> </p>
+
+    <h2>Conclusiones</h2>
+    <p>El estudio realizado junto con las visualizaciones en este dataset ha permitido que se transformen los datos crudos en datos clabe sobre los factores de riesgo que afectan las enfermedades cardaíacas.</p>
+    <ul>
+
+    <li><strong>Balance y calidad de la muestra (Distribución de Edad):</strong> 
+        El conjunto de datos presenta un equilibrio demográfico excepcional, con una distribución casi simétrica por géneros (5003 masculinos y 4978 femeninos) y una proporción equitativa de antecedentes familiares, garantizando patrones analíticos libres de sesgos.</li>
+    <li><strong>Análisis univariado (Distribución de BMI):</strong> 
+        El estudio individual del Índice de Masa Corporal permitió identificar la dispersión y la media de los registros médicos evaluados, sirviendo de base para estructurar los límites de riesgo en las etapas posteriores.</li>
+    <li><strong>Base estadística (Niveles de Colesterol):</strong> 
+        Se examinó la concentración de colesterol en la población total recopilada, estableciendo una base estadística uniforme y limpia para cruzarla con variables conductuales y de estilo de vida.</li>
+    <li><strong>Evolución clínica (Edad vs Presión):</strong> 
+        El cruce de la variable de edad frente a los registros de presión arterial muestra tendencias clave que apoyan la identificación de anomalías o patrones de riesgo crónico dentro de los distintos segmentos etarios.</li>
+    <li><strong>Desmitificación de variables (Colesterol vs Estrés):</strong> 
+        El análisis bidimensional demostró que el nivel de estrés por sí solo no altera estadísticamente la concentración de colesterol, probando que no se debe diagnosticar el riesgo basándose en un único factor aislado.</li>
+    <li><strong>El poder de los factores combinados (Hábitos Personales):</strong> 
+        Quedó en evidencia que las enfermedades del corazón dependen de la acumulación de riesgos; la interacción simultánea de una mayor edad, un BMI elevado y el tabaquismo agrupa visualmente a los pacientes con estado cardíaco positivo.</li>
+    <li><strong>Accionabilidad y visualización médica:</strong> 
+        Las campañas de salud deben dirigirse integralmente a estos "perfiles combinados". Por su limpieza y ausencia de sesgos, este dataset es el candidato ideal para diseñar dashboards médicos interactivos que permitan explorar tendencias y comunicar riesgos de forma transparente.</li>
+    </ul>
+
+
+    <h2>Referencias a los gists publicados</h2>
+    <p>Enlaces a los repositorios de código e imágenes.</p>
+    <ul>
+        <li><strong>Gráfica 1 (Distribución de Edad):</strong> <a href="https://gist.github.com/ottoasr12/23bdae1ccaaad95ab9301edd394c3f8a" target="_blank">Ver código y SVG</a></li>
+        <li><strong>Gráfica 2 (Distribución de BMI):</strong> <a href="https://gist.github.com/ottoasr12/552f5665a271870f627e1ec8d869e691" target="_blank">Ver código y SVG</a></li>
+        <li><strong>Gráfica 3 (Niveles de Colesterol):</strong> <a href="https://gist.github.com/ottoasr12/22e6a8885a042cbcca863a6ef892596e" target="_blank">Ver código y SVG</a></li>
+        <li><strong>Gráfica 4 (Edad vs Presión):</strong> <a href="https://gist.github.com/ottoasr12/23bdae1ccaaad95ab9301edd394c3f8a" target="_blank">Ver código y SVG</a></li>
+        <li><strong>Gráfica 5 (Colesterol vs Estrés):</strong> <a href="https://gist.github.com/RafaAraya14/3108d1f59383153eb4e54e3c15f38564" target="_blank">Ver código y SVG</a></li>
+        <li><strong>Gráfica 6 (Hábitos Personales):</strong> <a href="https://gist.github.com/RafaAraya14/255ccea2137a21f3af4b10a55554786e" target="_blank">Ver código y SVG</a></li>
+    
+    </ul>
+
+</body>
+</html>
