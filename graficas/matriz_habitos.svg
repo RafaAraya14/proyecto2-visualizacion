@@ -1,0 +1,425 @@
+<svg width="850" height="850" xmlns="http://www.w3.org/2000/svg">
+  <rect width="850" height="850" fill="#f8f9fa" rx="12"/>
+  
+  <text x="425" y="35" font-family="Arial" font-size="18" font-weight="bold" text-anchor="middle" fill="#2C3E50">Matriz Multidimensional de Comparación de Hábitos</text>
+  
+  <rect x="90" y="215" width="110" height="110" fill="#ffffff" stroke="#bdc3c7" stroke-width="1"/>
+  <rect x="90" y="360" width="110" height="110" fill="#ffffff" stroke="#bdc3c7" stroke-width="1"/>
+  <rect x="235" y="360" width="110" height="110" fill="#ffffff" stroke="#bdc3c7" stroke-width="1"/>
+  <rect x="90" y="505" width="110" height="110" fill="#ffffff" stroke="#bdc3c7" stroke-width="1"/>
+  <rect x="235" y="505" width="110" height="110" fill="#ffffff" stroke="#bdc3c7" stroke-width="1"/>
+  <rect x="380" y="505" width="110" height="110" fill="#ffffff" stroke="#bdc3c7" stroke-width="1"/>
+  <rect x="90" y="650" width="110" height="110" fill="#ffffff" stroke="#bdc3c7" stroke-width="1"/>
+  <rect x="235" y="650" width="110" height="110" fill="#ffffff" stroke="#bdc3c7" stroke-width="1"/>
+  <rect x="380" y="650" width="110" height="110" fill="#ffffff" stroke="#bdc3c7" stroke-width="1"/>
+  <rect x="525" y="650" width="110" height="110" fill="#ffffff" stroke="#bdc3c7" stroke-width="1"/>
+  
+  <rect x="90" y="309.2857" width="36.6667" height="15.7143" fill="#86A5B9">
+    <title>Total: 278 personas</title>
+  </rect>
+  <rect x="126.6667" y="309.2857" width="36.6667" height="15.7143" fill="#7F9FB4">
+    <title>Total: 298 personas</title>
+  </rect>
+  <rect x="163.3333" y="309.2857" width="36.6667" height="15.7143" fill="#7B9CB1">
+    <title>Total: 309 personas</title>
+  </rect>
+  <rect x="90" y="293.5714" width="36.6667" height="15.7143" fill="#1F5274">
+    <title>Total: 565 personas</title>
+  </rect>
+  <rect x="126.6667" y="293.5714" width="36.6667" height="15.7143" fill="#245678">
+    <title>Total: 551 personas</title>
+  </rect>
+  <rect x="163.3333" y="293.5714" width="36.6667" height="15.7143" fill="#1F5274">
+    <title>Total: 565 personas</title>
+  </rect>
+  <rect x="90" y="277.8571" width="36.6667" height="15.7143" fill="#2F5F7F">
+    <title>Total: 519 personas</title>
+  </rect>
+  <rect x="126.6667" y="277.8571" width="36.6667" height="15.7143" fill="#2A5B7C">
+    <title>Total: 533 personas</title>
+  </rect>
+  <rect x="163.3333" y="277.8571" width="36.6667" height="15.7143" fill="#245678">
+    <title>Total: 550 personas</title>
+  </rect>
+  <rect x="90" y="262.1429" width="36.6667" height="15.7143" fill="#2B5C7D">
+    <title>Total: 530 personas</title>
+  </rect>
+  <rect x="126.6667" y="262.1429" width="36.6667" height="15.7143" fill="#245678">
+    <title>Total: 551 personas</title>
+  </rect>
+  <rect x="163.3333" y="262.1429" width="36.6667" height="15.7143" fill="#245678">
+    <title>Total: 550 personas</title>
+  </rect>
+  <rect x="90" y="246.4286" width="36.6667" height="15.7143" fill="#2A5B7C">
+    <title>Total: 534 personas</title>
+  </rect>
+  <rect x="126.6667" y="246.4286" width="36.6667" height="15.7143" fill="#225577">
+    <title>Total: 555 personas</title>
+  </rect>
+  <rect x="163.3333" y="246.4286" width="36.6667" height="15.7143" fill="#2D5D7E">
+    <title>Total: 526 personas</title>
+  </rect>
+  <rect x="90" y="230.7143" width="36.6667" height="15.7143" fill="#235677">
+    <title>Total: 552 personas</title>
+  </rect>
+  <rect x="126.6667" y="230.7143" width="36.6667" height="15.7143" fill="#225476">
+    <title>Total: 557 personas</title>
+  </rect>
+  <rect x="163.3333" y="230.7143" width="36.6667" height="15.7143" fill="#1B4F72">
+    <title>Total: 575 personas</title>
+  </rect>
+  <rect x="90" y="215" width="36.6667" height="15.7143" fill="#84A2B7">
+    <title>Total: 286 personas</title>
+  </rect>
+  <rect x="126.6667" y="215" width="36.6667" height="15.7143" fill="#86A4B8">
+    <title>Total: 280 personas</title>
+  </rect>
+  <rect x="163.3333" y="215" width="36.6667" height="15.7143" fill="#84A2B7">
+    <title>Total: 286 personas</title>
+  </rect>
+  <rect x="90" y="433.3333" width="36.6667" height="36.6667" fill="#265879">
+    <title>Total: 1085 personas</title>
+  </rect>
+  <rect x="126.6667" y="433.3333" width="36.6667" height="36.6667" fill="#1B4F72">
+    <title>Total: 1147 personas</title>
+  </rect>
+  <rect x="163.3333" y="433.3333" width="36.6667" height="36.6667" fill="#1B4F72">
+    <title>Total: 1147 personas</title>
+  </rect>
+  <rect x="90" y="396.6667" width="36.6667" height="36.6667" fill="#27587A">
+    <title>Total: 1082 personas</title>
+  </rect>
+  <rect x="126.6667" y="396.6667" width="36.6667" height="36.6667" fill="#2A5B7C">
+    <title>Total: 1063 personas</title>
+  </rect>
+  <rect x="163.3333" y="396.6667" width="36.6667" height="36.6667" fill="#26587A">
+    <title>Total: 1084 personas</title>
+  </rect>
+  <rect x="90" y="360" width="36.6667" height="36.6667" fill="#26587A">
+    <title>Total: 1084 personas</title>
+  </rect>
+  <rect x="126.6667" y="360" width="36.6667" height="36.6667" fill="#225577">
+    <title>Total: 1107 personas</title>
+  </rect>
+  <rect x="163.3333" y="360" width="36.6667" height="36.6667" fill="#205375">
+    <title>Total: 1121 personas</title>
+  </rect>
+  <rect x="235" y="433.3333" width="15.7143" height="36.6667" fill="#85A4B8">
+    <title>Total: 291 personas</title>
+  </rect>
+  <rect x="250.7143" y="433.3333" width="15.7143" height="36.6667" fill="#245678">
+    <title>Total: 570 personas</title>
+  </rect>
+  <rect x="266.4286" y="433.3333" width="15.7143" height="36.6667" fill="#235678">
+    <title>Total: 571 personas</title>
+  </rect>
+  <rect x="282.1429" y="433.3333" width="15.7143" height="36.6667" fill="#305F80">
+    <title>Total: 536 personas</title>
+  </rect>
+  <rect x="297.8571" y="433.3333" width="15.7143" height="36.6667" fill="#295A7B">
+    <title>Total: 554 personas</title>
+  </rect>
+  <rect x="313.5714" y="433.3333" width="15.7143" height="36.6667" fill="#1B4F72">
+    <title>Total: 595 personas</title>
+  </rect>
+  <rect x="329.2857" y="433.3333" width="15.7143" height="36.6667" fill="#8DAABD">
+    <title>Total: 268 personas</title>
+  </rect>
+  <rect x="235" y="396.6667" width="15.7143" height="36.6667" fill="#85A4B8">
+    <title>Total: 292 personas</title>
+  </rect>
+  <rect x="250.7143" y="396.6667" width="15.7143" height="36.6667" fill="#326181">
+    <title>Total: 530 personas</title>
+  </rect>
+  <rect x="266.4286" y="396.6667" width="15.7143" height="36.6667" fill="#426E8C">
+    <title>Total: 483 personas</title>
+  </rect>
+  <rect x="282.1429" y="396.6667" width="15.7143" height="36.6667" fill="#2B5C7D">
+    <title>Total: 549 personas</title>
+  </rect>
+  <rect x="297.8571" y="396.6667" width="15.7143" height="36.6667" fill="#306080">
+    <title>Total: 535 personas</title>
+  </rect>
+  <rect x="313.5714" y="396.6667" width="15.7143" height="36.6667" fill="#2A5B7C">
+    <title>Total: 552 personas</title>
+  </rect>
+  <rect x="329.2857" y="396.6667" width="15.7143" height="36.6667" fill="#84A2B7">
+    <title>Total: 296 personas</title>
+  </rect>
+  <rect x="235" y="360" width="15.7143" height="36.6667" fill="#81A1B5">
+    <title>Total: 302 personas</title>
+  </rect>
+  <rect x="250.7143" y="360" width="15.7143" height="36.6667" fill="#215476">
+    <title>Total: 578 personas</title>
+  </rect>
+  <rect x="266.4286" y="360" width="15.7143" height="36.6667" fill="#2C5C7D">
+    <title>Total: 547 personas</title>
+  </rect>
+  <rect x="282.1429" y="360" width="15.7143" height="36.6667" fill="#2C5D7D">
+    <title>Total: 546 personas</title>
+  </rect>
+  <rect x="297.8571" y="360" width="15.7143" height="36.6667" fill="#326181">
+    <title>Total: 529 personas</title>
+  </rect>
+  <rect x="313.5714" y="360" width="15.7143" height="36.6667" fill="#305F80">
+    <title>Total: 536 personas</title>
+  </rect>
+  <rect x="329.2857" y="360" width="15.7143" height="36.6667" fill="#87A5B9">
+    <title>Total: 285 personas</title>
+  </rect>
+  <rect x="90" y="560" width="36.6667" height="55" fill="#316080">
+    <title>Total: 1575 personas</title>
+  </rect>
+  <rect x="126.6667" y="560" width="36.6667" height="55" fill="#26587A">
+    <title>Total: 1660 personas</title>
+  </rect>
+  <rect x="163.3333" y="560" width="36.6667" height="55" fill="#2F5F7F">
+    <title>Total: 1592 personas</title>
+  </rect>
+  <rect x="90" y="505" width="36.6667" height="55" fill="#245678">
+    <title>Total: 1683 personas</title>
+  </rect>
+  <rect x="126.6667" y="505" width="36.6667" height="55" fill="#27587A">
+    <title>Total: 1658 personas</title>
+  </rect>
+  <rect x="163.3333" y="505" width="36.6667" height="55" fill="#1B4F72">
+    <title>Total: 1757 personas</title>
+  </rect>
+  <rect x="235" y="560" width="15.7143" height="55" fill="#8CA9BC">
+    <title>Total: 397 personas</title>
+  </rect>
+  <rect x="250.7143" y="560" width="15.7143" height="55" fill="#265879">
+    <title>Total: 818 personas</title>
+  </rect>
+  <rect x="266.4286" y="560" width="15.7143" height="55" fill="#27587A">
+    <title>Total: 817 personas</title>
+  </rect>
+  <rect x="282.1429" y="560" width="15.7143" height="55" fill="#2A5B7C">
+    <title>Total: 804 personas</title>
+  </rect>
+  <rect x="297.8571" y="560" width="15.7143" height="55" fill="#306080">
+    <title>Total: 776 personas</title>
+  </rect>
+  <rect x="313.5714" y="560" width="15.7143" height="55" fill="#265879">
+    <title>Total: 820 personas</title>
+  </rect>
+  <rect x="329.2857" y="560" width="15.7143" height="55" fill="#8AA8BB">
+    <title>Total: 403 personas</title>
+  </rect>
+  <rect x="235" y="505" width="15.7143" height="55" fill="#7697AE">
+    <title>Total: 488 personas</title>
+  </rect>
+  <rect x="250.7143" y="505" width="15.7143" height="55" fill="#1B4F72">
+    <title>Total: 865 personas</title>
+  </rect>
+  <rect x="266.4286" y="505" width="15.7143" height="55" fill="#2E5E7F">
+    <title>Total: 785 personas</title>
+  </rect>
+  <rect x="282.1429" y="505" width="15.7143" height="55" fill="#245678">
+    <title>Total: 828 personas</title>
+  </rect>
+  <rect x="297.8571" y="505" width="15.7143" height="55" fill="#215476">
+    <title>Total: 838 personas</title>
+  </rect>
+  <rect x="313.5714" y="505" width="15.7143" height="55" fill="#1B4F72">
+    <title>Total: 865 personas</title>
+  </rect>
+  <rect x="329.2857" y="505" width="15.7143" height="55" fill="#809FB4">
+    <title>Total: 446 personas</title>
+  </rect>
+  <rect x="380" y="560" width="36.6667" height="55" fill="#27587A">
+    <title>Total: 1638 personas</title>
+  </rect>
+  <rect x="416.6667" y="560" width="36.6667" height="55" fill="#306080">
+    <title>Total: 1557 personas</title>
+  </rect>
+  <rect x="453.3333" y="560" width="36.6667" height="55" fill="#285A7B">
+    <title>Total: 1625 personas</title>
+  </rect>
+  <rect x="380" y="505" width="36.6667" height="55" fill="#1B4F72">
+    <title>Total: 1735 personas</title>
+  </rect>
+  <rect x="416.6667" y="505" width="36.6667" height="55" fill="#225577">
+    <title>Total: 1674 personas</title>
+  </rect>
+  <rect x="453.3333" y="505" width="36.6667" height="55" fill="#205375">
+    <title>Total: 1691 personas</title>
+  </rect>
+  <rect x="90" y="723.3333" width="36.6667" height="36.6667" fill="#265779">
+    <title>Total: 1090 personas</title>
+  </rect>
+  <rect x="126.6667" y="723.3333" width="36.6667" height="36.6667" fill="#245678">
+    <title>Total: 1097 personas</title>
+  </rect>
+  <rect x="163.3333" y="723.3333" width="36.6667" height="36.6667" fill="#205375">
+    <title>Total: 1121 personas</title>
+  </rect>
+  <rect x="90" y="686.6667" width="36.6667" height="36.6667" fill="#265879">
+    <title>Total: 1086 personas</title>
+  </rect>
+  <rect x="126.6667" y="686.6667" width="36.6667" height="36.6667" fill="#1C5073">
+    <title>Total: 1140 personas</title>
+  </rect>
+  <rect x="163.3333" y="686.6667" width="36.6667" height="36.6667" fill="#1B4F72">
+    <title>Total: 1148 personas</title>
+  </rect>
+  <rect x="90" y="650" width="36.6667" height="36.6667" fill="#27597A">
+    <title>Total: 1081 personas</title>
+  </rect>
+  <rect x="126.6667" y="650" width="36.6667" height="36.6667" fill="#28597A">
+    <title>Total: 1079 personas</title>
+  </rect>
+  <rect x="163.3333" y="650" width="36.6667" height="36.6667" fill="#265879">
+    <title>Total: 1086 personas</title>
+  </rect>
+  <rect x="235" y="723.3333" width="15.7143" height="36.6667" fill="#7F9FB4">
+    <title>Total: 309 personas</title>
+  </rect>
+  <rect x="250.7143" y="723.3333" width="15.7143" height="36.6667" fill="#2A5B7C">
+    <title>Total: 551 personas</title>
+  </rect>
+  <rect x="266.4286" y="723.3333" width="15.7143" height="36.6667" fill="#2B5C7C">
+    <title>Total: 550 personas</title>
+  </rect>
+  <rect x="282.1429" y="723.3333" width="15.7143" height="36.6667" fill="#326181">
+    <title>Total: 529 personas</title>
+  </rect>
+  <rect x="297.8571" y="723.3333" width="15.7143" height="36.6667" fill="#366483">
+    <title>Total: 519 personas</title>
+  </rect>
+  <rect x="313.5714" y="723.3333" width="15.7143" height="36.6667" fill="#1D5073">
+    <title>Total: 590 personas</title>
+  </rect>
+  <rect x="329.2857" y="723.3333" width="15.7143" height="36.6667" fill="#8EABBE">
+    <title>Total: 266 personas</title>
+  </rect>
+  <rect x="235" y="686.6667" width="15.7143" height="36.6667" fill="#80A0B5">
+    <title>Total: 305 personas</title>
+  </rect>
+  <rect x="250.7143" y="686.6667" width="15.7143" height="36.6667" fill="#1B4F72">
+    <title>Total: 595 personas</title>
+  </rect>
+  <rect x="266.4286" y="686.6667" width="15.7143" height="36.6667" fill="#316181">
+    <title>Total: 531 personas</title>
+  </rect>
+  <rect x="282.1429" y="686.6667" width="15.7143" height="36.6667" fill="#265879">
+    <title>Total: 563 personas</title>
+  </rect>
+  <rect x="297.8571" y="686.6667" width="15.7143" height="36.6667" fill="#245678">
+    <title>Total: 569 personas</title>
+  </rect>
+  <rect x="313.5714" y="686.6667" width="15.7143" height="36.6667" fill="#316080">
+    <title>Total: 533 personas</title>
+  </rect>
+  <rect x="329.2857" y="686.6667" width="15.7143" height="36.6667" fill="#87A5B9">
+    <title>Total: 286 personas</title>
+  </rect>
+  <rect x="235" y="650" width="15.7143" height="36.6667" fill="#8DAABD">
+    <title>Total: 270 personas</title>
+  </rect>
+  <rect x="250.7143" y="650" width="15.7143" height="36.6667" fill="#305F80">
+    <title>Total: 536 personas</title>
+  </rect>
+  <rect x="266.4286" y="650" width="15.7143" height="36.6667" fill="#346382">
+    <title>Total: 524 personas</title>
+  </rect>
+  <rect x="282.1429" y="650" width="15.7143" height="36.6667" fill="#2E5E7F">
+    <title>Total: 540 personas</title>
+  </rect>
+  <rect x="297.8571" y="650" width="15.7143" height="36.6667" fill="#326181">
+    <title>Total: 530 personas</title>
+  </rect>
+  <rect x="313.5714" y="650" width="15.7143" height="36.6667" fill="#285A7B">
+    <title>Total: 557 personas</title>
+  </rect>
+  <rect x="329.2857" y="650" width="15.7143" height="36.6667" fill="#82A1B6">
+    <title>Total: 300 personas</title>
+  </rect>
+  <rect x="380" y="723.3333" width="36.6667" height="36.6667" fill="#1D5073">
+    <title>Total: 1152 personas</title>
+  </rect>
+  <rect x="416.6667" y="723.3333" width="36.6667" height="36.6667" fill="#26587A">
+    <title>Total: 1098 personas</title>
+  </rect>
+  <rect x="453.3333" y="723.3333" width="36.6667" height="36.6667" fill="#2E5E7E">
+    <title>Total: 1058 personas</title>
+  </rect>
+  <rect x="380" y="686.6667" width="36.6667" height="36.6667" fill="#1F5274">
+    <title>Total: 1142 personas</title>
+  </rect>
+  <rect x="416.6667" y="686.6667" width="36.6667" height="36.6667" fill="#2C5C7D">
+    <title>Total: 1068 personas</title>
+  </rect>
+  <rect x="453.3333" y="686.6667" width="36.6667" height="36.6667" fill="#1B4F72">
+    <title>Total: 1162 personas</title>
+  </rect>
+  <rect x="380" y="650" width="36.6667" height="36.6667" fill="#295A7B">
+    <title>Total: 1086 personas</title>
+  </rect>
+  <rect x="416.6667" y="650" width="36.6667" height="36.6667" fill="#2C5D7D">
+    <title>Total: 1065 personas</title>
+  </rect>
+  <rect x="453.3333" y="650" width="36.6667" height="36.6667" fill="#28597A">
+    <title>Total: 1092 personas</title>
+  </rect>
+  <rect x="525" y="723.3333" width="55" height="36.6667" fill="#28597B">
+    <title>Total: 1603 personas</title>
+  </rect>
+  <rect x="580" y="723.3333" width="55" height="36.6667" fill="#1C5073">
+    <title>Total: 1703 personas</title>
+  </rect>
+  <rect x="525" y="686.6667" width="55" height="36.6667" fill="#215476">
+    <title>Total: 1660 personas</title>
+  </rect>
+  <rect x="580" y="686.6667" width="55" height="36.6667" fill="#1B4F72">
+    <title>Total: 1710 personas</title>
+  </rect>
+  <rect x="525" y="650" width="55" height="36.6667" fill="#2D5D7E">
+    <title>Total: 1564 personas</title>
+  </rect>
+  <rect x="580" y="650" width="55" height="36.6667" fill="#1E5174">
+    <title>Total: 1688 personas</title>
+  </rect>
+  
+  <rect x="90" y="107" width="110" height="32" fill="#EAECEE" rx="6"/>
+  <text x="145" y="129" font-family="Arial" font-size="12" font-weight="bold" text-anchor="middle" fill="#34495E">Ejercicio</text>
+  <rect x="235" y="252" width="110" height="32" fill="#EAECEE" rx="6"/>
+  <text x="290" y="274" font-family="Arial" font-size="12" font-weight="bold" text-anchor="middle" fill="#34495E">Sueño</text>
+  <rect x="380" y="397" width="110" height="32" fill="#EAECEE" rx="6"/>
+  <text x="435" y="419" font-family="Arial" font-size="12" font-weight="bold" text-anchor="middle" fill="#34495E">Azúcar</text>
+  <rect x="525" y="542" width="110" height="32" fill="#EAECEE" rx="6"/>
+  <text x="580" y="564" font-family="Arial" font-size="12" font-weight="bold" text-anchor="middle" fill="#34495E">Fumador</text>
+  <rect x="670" y="687" width="110" height="32" fill="#EAECEE" rx="6"/>
+  <text x="725" y="709" font-family="Arial" font-size="12" font-weight="bold" text-anchor="middle" fill="#34495E">Estrés</text>
+  
+  <text x="82" y="321.1429" font-family="Arial" font-size="10" text-anchor="end" fill="#5D6D7E">4</text>
+  <text x="82" y="305.4286" font-family="Arial" font-size="10" text-anchor="end" fill="#5D6D7E">5</text>
+  <text x="82" y="289.7143" font-family="Arial" font-size="10" text-anchor="end" fill="#5D6D7E">6</text>
+  <text x="82" y="274" font-family="Arial" font-size="10" text-anchor="end" fill="#5D6D7E">7</text>
+  <text x="82" y="258.2857" font-family="Arial" font-size="10" text-anchor="end" fill="#5D6D7E">8</text>
+  <text x="82" y="242.5714" font-family="Arial" font-size="10" text-anchor="end" fill="#5D6D7E">9</text>
+  <text x="82" y="226.8571" font-family="Arial" font-size="10" text-anchor="end" fill="#5D6D7E">10</text>
+  <text x="82" y="455.6667" font-family="Arial" font-size="10" text-anchor="end" fill="#5D6D7E">Low</text>
+  <text x="82" y="419" font-family="Arial" font-size="10" text-anchor="end" fill="#5D6D7E">Medium</text>
+  <text x="82" y="382.3333" font-family="Arial" font-size="10" text-anchor="end" fill="#5D6D7E">High</text>
+  <text x="82" y="591.5" font-family="Arial" font-size="10" text-anchor="end" fill="#5D6D7E">No</text>
+  <text x="82" y="536.5" font-family="Arial" font-size="10" text-anchor="end" fill="#5D6D7E">Yes</text>
+  <text x="82" y="745.6667" font-family="Arial" font-size="10" text-anchor="end" fill="#5D6D7E">Low</text>
+  <text x="82" y="709" font-family="Arial" font-size="10" text-anchor="end" fill="#5D6D7E">Medium</text>
+  <text x="82" y="672.3333" font-family="Arial" font-size="10" text-anchor="end" fill="#5D6D7E">High</text>
+  <text x="108.3333" y="775" font-family="Arial" font-size="10" text-anchor="middle" fill="#5D6D7E">Low</text>
+  <text x="145" y="775" font-family="Arial" font-size="10" text-anchor="middle" fill="#5D6D7E">Medium</text>
+  <text x="181.6667" y="775" font-family="Arial" font-size="10" text-anchor="middle" fill="#5D6D7E">High</text>
+  <text x="242.8571" y="775" font-family="Arial" font-size="10" text-anchor="middle" fill="#5D6D7E">4</text>
+  <text x="258.5714" y="775" font-family="Arial" font-size="10" text-anchor="middle" fill="#5D6D7E">5</text>
+  <text x="274.2857" y="775" font-family="Arial" font-size="10" text-anchor="middle" fill="#5D6D7E">6</text>
+  <text x="290" y="775" font-family="Arial" font-size="10" text-anchor="middle" fill="#5D6D7E">7</text>
+  <text x="305.7143" y="775" font-family="Arial" font-size="10" text-anchor="middle" fill="#5D6D7E">8</text>
+  <text x="321.4286" y="775" font-family="Arial" font-size="10" text-anchor="middle" fill="#5D6D7E">9</text>
+  <text x="337.1429" y="775" font-family="Arial" font-size="10" text-anchor="middle" fill="#5D6D7E">10</text>
+  <text x="398.3333" y="775" font-family="Arial" font-size="10" text-anchor="middle" fill="#5D6D7E">Low</text>
+  <text x="435" y="775" font-family="Arial" font-size="10" text-anchor="middle" fill="#5D6D7E">Medium</text>
+  <text x="471.6667" y="775" font-family="Arial" font-size="10" text-anchor="middle" fill="#5D6D7E">High</text>
+  <text x="552.5" y="775" font-family="Arial" font-size="10" text-anchor="middle" fill="#5D6D7E">No</text>
+  <text x="607.5" y="775" font-family="Arial" font-size="10" text-anchor="middle" fill="#5D6D7E">Yes</text>
+</svg>
